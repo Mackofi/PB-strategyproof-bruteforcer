@@ -4,7 +4,6 @@ A simple program that tries to find examples which break strategyproofness using
 ## Setup
 
 ```powershell
-cd C:\Users\macko\pabutools-cost-sat
 py -m pip install -r requirements.txt
 ```
 
