@@ -11,7 +11,6 @@ py -m pip install -r requirements.txt
 
 Running the program and setting the configuration variables is done with the following code:
 ```powershell
-cd C:\Users\macko\pabutools-cost-sat
 py main.py --max-project-count 3 --max-value-per-project 4 --max-voters 6
 ```
 
