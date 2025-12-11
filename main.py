@@ -330,7 +330,7 @@ def _search_num_voters(
 
 
 def _search_cost_vector(project_costs, config, stop_event) -> bool:
-    if stop_event.is_set() or all(cost > 1 for cost in project_costs):
+    if stop_event.is_set():
         return False
     projects = [Project(f"p{i+1}", cost) for i, cost in enumerate(project_costs)]
     min_budget = min(project_costs) + 1
